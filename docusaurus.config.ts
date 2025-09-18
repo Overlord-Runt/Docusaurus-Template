@@ -69,7 +69,7 @@ const config: Config = {
         },
         {  // copy for new section thingies
           type: 'docSidebar',
-          sidebarId: 'WorkySidebar',
+          sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'Worky',
         },
@@ -89,10 +89,6 @@ const config: Config = {
             {
               label: 'Helpy Thing', // replace with title of the button thing
               to: '/docs/intro', // path to the doc
-            },
-            {
-              label: 'Worky', // replace with title of the button thing
-              to: '/exampletab/intro', // path to the doc
             },
           ],
         },
