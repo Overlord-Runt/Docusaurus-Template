@@ -65,7 +65,13 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Not tutorials',
+          label: 'Helpy Thing',
+        },
+        {  // copy for new section thingies
+          type: 'docSidebar',
+          sidebarId: 'tutorialSidebar',
+          position: 'left',
+          label: 'Worky',
         },
         {
           href: 'https://github.com/Overlord-Runt/Docusaurus-Template', // repo link
@@ -81,8 +87,12 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial', // replace with title of the button thing
+              label: 'Helpy Thing', // replace with title of the button thing
               to: '/docs/intro', // path to the doc
+            },
+            {
+              label: 'Worky', // replace with title of the button thing
+              to: '/exampletab/intro', // path to the doc
             },
           ],
         },
