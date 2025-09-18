@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-format dropdowns like this: 
+format dropdowns like this in a file named `_category_.json`: 
 ```
 {
   "label": "Dropdown Name",
