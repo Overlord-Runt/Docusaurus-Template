@@ -96,7 +96,7 @@ const config: Config = {
           title: 'Community',  // replace with the links you want or remove what you want
           items: [
             {
-              label: 'Stack Overflow',
+              label: 'Youtube',
               href: 'https://stackoverflow.com/questions/tagged/docusaurus',
             },
             {
@@ -119,7 +119,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Taranium, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
