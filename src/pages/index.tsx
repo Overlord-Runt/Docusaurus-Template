@@ -22,7 +22,7 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             to="/docs/howuse/intro">     
             Docusaurus Tutorial - 5min ⏱️
-          </Link>  // needs path change
+          </Link>  
         </div>
       </div>
     </header>
