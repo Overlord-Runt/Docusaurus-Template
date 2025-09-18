@@ -20,9 +20,9 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/howuse/intro">     // NEEDS PATH UPDATE
+            to="/docs/howuse/intro">     
             Docusaurus Tutorial - 5min ⏱️
-          </Link>
+          </Link>  // needs path change
         </div>
       </div>
     </header>
