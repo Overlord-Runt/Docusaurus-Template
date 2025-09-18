@@ -88,7 +88,7 @@ const config: Config = {
           items: [
             {
               label: 'Helpy Thing', // replace with title of the button thing
-              to: '/docs/intro', // path to the doc
+              to: '/docs/howuse/intro', // path to the doc
             },
           ],
         },
