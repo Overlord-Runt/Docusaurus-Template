@@ -69,7 +69,7 @@ const config: Config = {
         },
         {  // copy for new section thingies
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'WorkySidebar',
           position: 'left',
           label: 'Worky',
         },
