@@ -18,7 +18,7 @@ const config: Config = {
   url: 'https://testing.taranium.xyz',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/', // like if you want this on a path instead of a subdomain/apex domain
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -55,7 +55,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'My Site', // title replace with your site name
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -68,7 +68,7 @@ const config: Config = {
           label: 'Tutorial',
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/Overlord-Runt/Docusaurus-Template', // repo link
           label: 'GitHub',
           position: 'right',
         },
@@ -81,13 +81,13 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Tutorial', // replace with title of the button thing
+              to: '/docs/intro', // path to the doc
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Community',  // replace with the links you want or remove what you want
           items: [
             {
               label: 'Stack Overflow',
@@ -108,7 +108,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/Overlord-Runt/MY-WEBSITE',
+              href: 'https://github.com/Overlord-Runt/Docusaurus-Template',  // repo link
             },
           ],
         },
