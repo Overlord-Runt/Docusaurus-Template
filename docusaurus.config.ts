@@ -81,7 +81,7 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial', // replace with title of the button thing
+              label: 'Not Tutorial', // replace with title of the button thing
               to: '/docs/intro', // path to the doc
             },
           ],
